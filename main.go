@@ -13,7 +13,7 @@ func main() {
 	fmt.Scan(&address)
 	fmt.Println("The IP address is:", address)
 
-	var fqdn = address + ":12300"
+	var fqdn = address + ":50000"
 
 	conn, err := net.Dial("tcp", fqdn)
 	if err != nil {
